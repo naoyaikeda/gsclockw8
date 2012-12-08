@@ -1,0 +1,5 @@
+syntax: glob
+GsClock/bin/*
+GsClock/bld/*
+GsClock.v11.suo
+GsClock/GsClock.jsproj.user

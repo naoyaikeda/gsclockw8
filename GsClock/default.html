@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>GsClock</title>
+
+    <!-- WinJS 参照 -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- GsClock 参照 -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+</head>
+<body>
+    <svg style="position: absolute; left:0px; top:0px;">
+        <circle cx="160" cy="160" r="160" stroke="black" stroke-width="2" fill="silver"></circle>
+        <rect	id="idMinuteHand"
+    	    x="157"
+	        y="0"
+    	    fill="black"
+	        stroke="black"
+	        width="6"
+	        height="160"></rect>
+        <rect	id="idHourHand"
+	        x="155"
+	        y="80"
+	        fill="black"
+	        stroke="black"
+	        width="10"
+	        height="80"></rect>
+    </svg>
+</body>
+</html>
